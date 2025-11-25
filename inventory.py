@@ -18,6 +18,7 @@ def welcome():
             menu()
         elif choose == 'Q':
             print("Exiting the system. Bfnunchuck")
+            break
         else:
             print("Invalid choice. Exiting the system.")
 
@@ -52,7 +53,7 @@ def menu():
         print("\n===============Inventory Menu:===============")
         print("1. Add Book")
         print("2. View Inventory")
-        print("3. Exit")
+        print("3. Search Book")
         print("4. Renew Book")
         print("5. Detail Correction")
         print("6. Check Out Book")
